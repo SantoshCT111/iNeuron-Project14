@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+ 
+}
+body {
+    display: flex;
+}
+.left {
+    background-image: url(./pexels-rfstudio-3819572.jpg);
+    
+    height: 100vh;
+    background-size: cover;
+
+    width: 35vw;
+
+}
+.left img{
+   width: 80px;
+   margin-top: 80px;
+   margin-left: 80px;
+   filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(208deg) brightness(0%) contrast(108%);
+}
+.right {
+    background-color: #f5f2f0;
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-left: 40px;
+}
+.icons li img {
+    width: 20px;
+}
+nav {
+    display: flex;
+    align-items: center;
+
+}
+.line {
+    width: 25vw;
+    height: 1.5px;
+    background-color: black;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+
+}
+li {
+    list-style-type: none;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.content-right {
+    display: flex;
+
+}
+.creativity h1:last-child {
+    color: #333333;
+    margin-top: -50px;
+}
+.content-right h3 {
+    width: 15vw;
+    align-self: flex-end;
+    font-size: 32px;
+    color: #8b8b8b;
+    margin-bottom: 30px;
+}
+.creativity {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+}
+.creativity h1:last-child {
+    align-self: flex-end;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.package-button {
+    display: flex;
+    justify-content: flex-end;
+}
+.package-button button{
+    width: 190px;
+    height: 46px;
+    background-color: #333333;
+    color: white;
+    font-size: 14px;
+    border: none;
+    margin-top: 20px;
+
+}
+.photo img {
+    width: 26vw;
+}
+.end {
+    display: flex;
+    color: #828282;
+    margin-top: 80px;
+}
+.end-left {
+    width: 30vw;
+    font-size: 20px;
+border-left: 1px solid #828282;
+
+
+
+}
+.end-left li:first-child .dot {
+    background-color: black;
+
+}
+
+.end-left li:first-child {
+    color: black;
+}
+.end-left li {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: -10PX;
+    margin-top: -10PX;
+
+    
+    
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    background-color: #828282;
+    margin-right: 40px;
+    border-radius: 50%;
+}.end-right {
+    display: flex;
+}
+.v-line {
+    margin-top: 80px;
+    width: 2px;
+    height: 15vh;
+    margin-right: 120px;
+  
+    background-color:#656363 ;
+}
+.v {
+    width: 16px;
+    height: 16px;
+   
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: rotate(315deg);
+    position: relative;
+    top: -19px;
+    right: 7.5px;
+}
